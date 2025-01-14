@@ -1,0 +1,52 @@
+body {
+    background-color: #333333;
+    color: #BBBBBB;
+    font-family: Helvetica, sans-serif;
+}
+h1{
+    color: #FFBC03;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #000000;
+    font-family: Helvetica, sans-serif; /* This should be more ornate */
+}
+.eggcrate-container {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 2px;
+    background-color: #000000;
+    /*border: 3px solid #FFF000;*/
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px #FFF000;
+    margin: 0;
+    width: 50px;
+    row-gap: 0;
+    line-height: 0.7em;
+    letter-spacing: -5px;
+
+}
+.eggcrate-row{
+    display: flex;
+    gap: 4px;
+
+}
+.egg{
+    color: #FFBC03;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #0A0A23;
+    font-family: Helvetica, sans-serif;
+}
+.divider{
+    color: #FFBC03;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #000000;
+}
+.timer-form{
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #000000;
+    margin: 10px 0;
+}
